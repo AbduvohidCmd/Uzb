@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.NavContenier {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+
+
+.Nav {
+    width: 850px;
+    height: 120px;
+    background: none;
+}
+
+
+
+.NavInp {
+    width: 100%;
+    height: 80px;
+    background: none;
+    display: flex;
+}
+
+
+
+.ImgIcon {
+    width: 400px;
+    height: 80px;
+    background: none;
+}
+
+
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-with-icon {
+    padding-left: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    height: 35px;
+}
+
+.input-icon {
+    position: absolute;
+    left: 15px;
+    color: #888;
+    pointer-events: none;
+    font-size: 30px;
+}
+
+
+.input-container>input {
+    width: 450px;
+    height: 60px;
+    text-indent: 28px;
+    font-size: 16px;
+}
+
+
+
+
+
+.NavKat {
+    width: 100%;
+    height: 40px;
+    background: none;
+    display: flex;
+}
+
+
+.div {
+    width: 150px;
+    height: 40px;
+    background: none;
+}
+
+
+
+.Pteg {
+    width: 100%;
+    height: 40px;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    font-size: 16px;
+}
+
+
+
+.Pteg>p:hover {
+    color: rgb(0, 74, 148);
+}
+
+.NavKat {
+    position: relative;
+}
+
+.NavKat .Pteg p {
+    margin: 0;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.NavKat .Pteg p:hover .hover-text {
+    display: block;
+    /* Hover holatida matnni ko'rsatish */
+}
+
+.hover-text {
+    width: 260px;
+    height: 40px;
+    border-radius: 2px;
+    display: none;
+    /* Dastlab matnni yashirish */
+    position: absolute;
+    top: 100%;
+    /* "МЕРОПРИЯТИЯ" so'zining ostida joylashadi */
+    right: -65px;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    z-index: 10;
+    font-size: 15px;
+}
+
+
+.hover-text:hover {
+    color:  brown;
+}
+
+
+
+
+.NavKatalog {
+    width: 600px;
+    height: 120px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.NavKatalog>b {
+    font-size: 14px;
+    color: brown;
+}
+
+
+
+.NavKatalog>b:hover {
+    color: rgb(0, 74, 148);
+}
+
+
+
+.NavKatalog>h1 {
+    color: rgb(0, 74, 148);
+}
+
+
+
+.NavKatalog>h1:hover {
+    color: brown;
+}
