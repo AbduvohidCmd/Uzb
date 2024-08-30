@@ -10,6 +10,14 @@ const Navbar = () => {
         navigate('/vistavki');
     };
 
+    const handleUzbekistanClick = () => {
+        navigate('/Malumotlar'); 
+    };
+
+    const handleNewsClick = () => {
+        navigate('/novosti'); 
+    };
+
     return (
         <div className='NavContenier'>
             <div className='Nav'>
@@ -23,12 +31,13 @@ const Navbar = () => {
                 <div className='NavKat'>
                     <div className='div'></div>
                     <div className='Pteg'>
-                        <p>УЗБЕКИСТАН</p>
+                        <p onClick={handleUzbekistanClick}>УЗБЕКИСТАН</p>
                         <p>О ПРОЕКТЕ</p>
                         <p className='with-hover' onClick={handleExhibitionsClick}>
                             МЕРОПРИЯТИЯ
                             <div className='hover-text'>Ближайшие выставки</div>
                         </p>
+                        <p onClick={handleNewsClick}>НОВОСТИ</p>
                         <p>КАТАЛОГ ПРЕДПРИЯТИЙ</p>
                     </div>
                 </div>

@@ -49,7 +49,7 @@
 
 .input-with-icon {
     padding-left: 30px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     outline: none;
     height: 35px;
 }
@@ -96,8 +96,8 @@
     background: none;
     display: flex;
     align-items: center;
-    gap: 55px;
-    font-size: 16px;
+    gap: 37px;
+    font-size: 14px;
 }
 
 
@@ -119,7 +119,6 @@
 
 .NavKat .Pteg p:hover .hover-text {
     display: block;
-    /* Hover holatida matnni ko'rsatish */
 }
 
 .hover-text {
@@ -127,10 +126,8 @@
     height: 40px;
     border-radius: 2px;
     display: none;
-    /* Dastlab matnni yashirish */
     position: absolute;
     top: 100%;
-    /* "МЕРОПРИЯТИЯ" so'zining ostida joylashadi */
     right: -65px;
     background-color: #ffffff;
     padding: 10px;

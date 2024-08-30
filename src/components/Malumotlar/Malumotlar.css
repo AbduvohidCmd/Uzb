@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.MalumotlarConteiner {
+    width: 100%;
+    height: 350px;
+    padding: 0 20px;
+    background: repeat;
+}
+
+
+.MalumotlarConteiner h1 {
+    letter-spacing: -2.5px;
+    font-size: 3rem;
+    color: #ee0303;
+    margin: 0;
+    max-width: 80%;
+    line-height: 1.2;
+    padding: 150px 100px;
+}
+
+
+
+
+.MalumotBaza {
+    width: 100%;
+    height: 500vh;
+    background: rgba(128, 128, 128, 0.192);
+}
+
+
+
+.GegrafiyaContenier {
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.GegrafiyaMalumot {
+    width: 86%;
+    height: 90vh;
+    background: none;
+}
+
+
+/* .BorederY div {
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.BorederY div:active {
+    background-color: rgb(0, 28, 119);
+    color: white;
+} */
+
+
+
+.BorederY {
+    width: 100%;
+    height: 60px;
+    background: repeat;
+    display: flex;
+    border: 1px solid rgb(0, 28, 119);
+}
+
+
+.BorederBox1 {
+    width: 405px;
+    height: 58px;
+    background: repeat;
+    font-size: 21px;
+    color: rgb(0, 28, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.BorederBox2 {
+    width: 405px;
+    height: 58px;
+    background: repeat;
+    font-size: 21px;
+    color: rgb(0, 28, 119);
+    /* border: 1px  solid rgb(0, 28, 119); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.BorederBox3 {
+    width: 405px;
+    height: 58px;
+    background: repeat;
+    font-size: 21px;
+    color: rgb(0, 28, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

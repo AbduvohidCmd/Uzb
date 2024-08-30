@@ -1,0 +1,416 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.Novosti {
+    width: 100%;
+    height: 350px;
+    padding: 0 20px;
+    background: repeat;
+}
+
+
+.Novosti h1 {
+    letter-spacing: 1.5px;
+    font-size: 3rem;
+    color: rgb(0, 28, 119);
+    margin: 0;
+    max-width: 80%;
+    line-height: 1.2;
+    padding: 150px 100px;
+}
+
+
+
+.NovostiContenier {
+    width: 100%;
+    height: 220vh;
+    background: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+
+
+.NovostiMalumot1 {
+    width: 250px;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+.NovostiYozuv {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+
+.NovostiYozuv>e {
+    color: rgba(0, 0, 0, 0.644);
+}
+
+
+
+.NovostiYozuv>p {
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 18px;
+}
+
+
+.NovostiYozuv>b {
+    color: rgb(0, 28, 119);
+    font-size: 20px;
+}
+
+
+
+.Img1 {
+    width: 250px;
+    height: 250px;
+    background: rgb(47, 0, 255);
+}
+
+
+.Img1>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.NovostiMalumot2 {
+    width: 250px;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.NovostiYozuv>e {
+    color: rgba(0, 0, 0, 0.644);
+}
+
+
+
+.NovostiYozuv>p {
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 18px;
+}
+
+
+.NovostiYozuv>b {
+    color: rgb(0, 28, 119);
+    font-size: 20px;
+}
+
+
+
+.Img2 {
+    width: 250px;
+    height: 250px;
+    background: rgb(47, 0, 255);
+}
+
+
+.Img2>img {
+    width: 100%;
+    height: 100%;
+}
+
+.NovostiMalumot3 {
+    width: 250px;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.NovostiYozuv>e {
+    color: rgba(0, 0, 0, 0.644);
+}
+
+
+
+.NovostiYozuv>p {
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 18px;
+}
+
+
+.NovostiYozuv>b {
+    color: rgb(0, 28, 119);
+    font-size: 20px;
+}
+
+
+
+.Img3 {
+    width: 250px;
+    height: 250px;
+    background: rgb(47, 0, 255);
+}
+
+
+.Img3>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.Img3 {
+    width: 250px;
+    height: 250px;
+    background: rgb(47, 0, 255);
+}
+
+
+
+.NovostiMalumot4 {
+    width: 250px;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.Img4 {
+    width: 250px;
+    height: 250px;
+    background: rgb(47, 0, 255);
+}
+
+.NovostiYozuv>e {
+    color: rgba(0, 0, 0, 0.644);
+}
+
+
+
+.NovostiYozuv>p {
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 18px;
+}
+
+
+.NovostiYozuv>b {
+    color: rgb(0, 28, 119);
+    font-size: 20px;
+}
+
+
+
+.Img4 {
+    width: 250px;
+    height: 250px;
+    background: rgb(47, 0, 255);
+}
+
+
+.Img4>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.NovostiMalumot5 {
+    width: 250px;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.NovostiYozuv>e {
+    color: rgba(0, 0, 0, 0.644);
+}
+
+
+
+.NovostiYozuv>p {
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 18px;
+}
+
+
+.NovostiYozuv>b {
+    color: rgb(0, 28, 119);
+    font-size: 20px;
+}
+
+
+
+.Img5 {
+    width: 250px;
+    height: 250px;
+    background: rgb(47, 0, 255);
+}
+
+
+.Img5>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.Img5 {
+    width: 250px;
+    height: 250px;
+    background: rgb(47, 0, 255);
+}
+
+
+
+.NovostiMalumot6 {
+    width: 250px;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.NovostiYozuv>e {
+    color: rgba(0, 0, 0, 0.644);
+}
+
+
+
+.NovostiYozuv>p {
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 18px;
+}
+
+
+.NovostiYozuv>b {
+    color: rgb(0, 28, 119);
+    font-size: 20px;
+}
+
+
+
+.Img6 {
+    width: 250px;
+    height: 250px;
+    background: rgb(47, 0, 255);
+}
+
+
+.Img6>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.Img6 {
+    width: 250px;
+    height: 250px;
+    background: rgb(47, 0, 255);
+}
+
+
+.NovostiMalumot7 {
+    width: 250px;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.NovostiYozuv>e {
+    color: rgba(0, 0, 0, 0.644);
+}
+
+
+
+.NovostiYozuv>p {
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 18px;
+}
+
+
+.NovostiYozuv>b {
+    color: rgb(0, 28, 119);
+    font-size: 20px;
+}
+
+
+
+.Img7 {
+    width: 250px;
+    height: 250px;
+    background: rgb(47, 0, 255);
+}
+
+
+.Img7>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.Img7 {
+    width: 250px;
+    height: 250px;
+    background: rgb(47, 0, 255);
+}
+
+
+
+.NovostiMalumot8 {
+    width: 250px;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.NovostiYozuv>e {
+    color: rgba(0, 0, 0, 0.644);
+}
+
+
+
+.NovostiYozuv>p {
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 18px;
+}
+
+
+.NovostiYozuv>b {
+    color: rgb(0, 28, 119);
+    font-size: 20px;
+}
+
+
+
+.Img8 {
+    width: 250px;
+    height: 250px;
+    background: rgb(47, 0, 255);
+}
+
+
+.Img8>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.Img8 {
+    width: 250px;
+    height: 250px;
+    background: rgb(47, 0, 255);
+}
