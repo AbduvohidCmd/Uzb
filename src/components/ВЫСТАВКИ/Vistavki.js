@@ -10,7 +10,7 @@ const Vistavki = () => {
     return (
         <>
             <div className='Vistavki'>
-                <img src={OrqaFon} alt=""/>
+                <img src={OrqaFon} alt="" />
                 <p>ВЫСТАВКИ</p>
             </div>
             <div className='VistavkiContenier'>

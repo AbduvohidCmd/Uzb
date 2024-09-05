@@ -1,0 +1,283 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.FooterConteiner {
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(to bottom, white, rgba(0, 255, 255, 0.137));
+    display: flex;
+}
+
+
+.FooterConteiner>img {
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.Footer1 {
+    width: 300px;
+    height: 60vh;
+    background: none;
+}
+
+
+
+.BoxIcon {
+    width: 300px;
+    height: 26vh;
+    background: none;
+}
+
+
+
+.IconYozuv {
+    width: 300px;
+    height: 13vh;
+    background: none;
+    font-size: 25px;
+    color: rgb(7, 71, 134);
+    align-items: end;
+    display: flex;
+    justify-content: end;
+
+}
+
+
+
+.Icon {
+    width: 300px;
+    height: 13vh;
+    background: none;
+    display: flex;
+
+}
+
+
+
+.BoxFa {
+    width: 85px;
+    height: 13vh;
+    background: none;
+}
+
+
+
+.IconsFa {
+    width: 215px;
+    height: 13vh;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    font-size: 60px;
+    color: rgb(7, 71, 134);
+}
+
+
+
+.BoxYozuv {
+    width: 300px;
+    height: 34vh;
+    background: none;
+    display: flex;
+}
+
+
+.YoqBox {
+    width: 85px;
+    height: 34vh;
+    background: none;
+
+}
+
+
+.BoxMedia {
+    width: 215px;
+    height: 34vh;
+    background: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Media {
+    width: 215px;
+    height: 17vh;
+    background: none;
+    font-size: 18px;
+    color: rgb(7, 71, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.BoxBtn {
+    width: 215px;
+    height: 17vh;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.BoxBtn>button {
+    width: 215px;
+    height: 50px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background: brown;
+    color: white;
+}
+
+
+
+.Footer2 {
+    width: 670px;
+    height: 60vh;
+    background: none;
+    display: flex;
+}
+
+
+.FooterYozuv1 {
+    width: 223px;
+    height: 60vh;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-self: center;
+    justify-content: center;
+}
+
+
+.FooterYozuv1>p {
+    color: rgb(7, 71, 134);
+    font-size: 15px;
+}
+
+
+
+.FooterYozuv2 {
+    width: 223px;
+    height: 60vh;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-self: center;
+    justify-content: center;
+}
+
+
+
+.FooterYozuv2>p {
+    color: rgb(7, 71, 134);
+    font-size: 15px;
+}
+
+
+
+.FooterYozuv3 {
+    width: 223px;
+    height: 60vh;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-self: center;
+    justify-content: center;
+}
+
+
+.FooterYozuv3>p {
+    color: rgb(7, 71, 134);
+    font-size: 15px;
+}
+
+
+.FooterYozuv3>b {
+    color: rgb(16, 0, 59);
+    font-size: 15px;
+}
+
+
+
+.Footer3 {
+    width: 400px;
+    height: 60vh;
+    background: none;
+}
+
+
+.box {
+    width: 100%;
+    height: 25vh;
+    background: none;
+}
+
+
+
+.YozuvBox {
+    width: 100%;
+    height: 30vh;
+
+}
+
+
+.BoxYozuv1 {
+    width: 100%;
+    height: 15vh;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.BoxYozuv1>p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+
+.BoxYozuv1>b {
+    color: rgb(7, 71, 134);
+}
+
+
+.BoxYozuv2 {
+    width: 100%;
+    height: 15vh;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.BoxYozuv2>p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+
+.BoxYozuv2>b {
+    color: rgb(7, 71, 134);
+}
