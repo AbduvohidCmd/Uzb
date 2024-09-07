@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.BannerConteiner {
+    width: 100%;
+    height: 100vh;
+    background: none;
+    display: flex;
+}
+
+
+.BannerConteiner>img {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.253);
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+.BannerBtn {
+    width: 65%;
+    height: 100%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.BtnYozuv {
+    width: 100%;
+    height: 40vh;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 100px;
+
+}
+
+
+
+.BtnYozuv>p {
+    font-size: 50px;
+    color: rgb(0, 74, 148);
+    
+}
+
+
+.BannerBtn>button {
+    width: 440px;
+    height: 80px;
+    border: none;
+    border-radius: 50px;
+    background: rgb(199, 42, 42);
+    font-size: 25px;
+    color: white;
+    margin: 100px;
+}
+
+
+
+.BannerBtn>button:hover {
+    background: rgb(0, 74, 148);
+}
+
+
+
+.BannerIcons {
+    width: 35%;
+    height: 100%;
+    background: none;
+}
+
+
+
+.Box {
+    width: 100%;
+    height: 22vh;
+    background: none;
+}
+
+
+
+.Icons1 {
+    width: 100%;
+    height: 13vh;
+    background: none;
+    display: flex;
+    gap: 15px;
+}
+
+
+
+.Icons1>p {
+    font-size: 20px;
+}
+
+
+
+.Svg1 {
+    width: 100px;
+    height: 13vh;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.Icons2 {
+    width: 100%;
+    height: 13vh;
+    background: none;
+    display: flex;
+    gap: 15px;
+    ;
+}
+
+
+
+.Icons2>p {
+    font-size: 20px;
+}
+
+
+
+.Svg2 {
+    width: 100px;
+    height: 13vh;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.Icons3 {
+    width: 100%;
+    height: 13vh;
+    background: none;
+    display: flex;
+    gap: 15px;
+    ;
+}
+
+
+
+.Icons3>p {
+    font-size: 20px;
+}
+
+
+
+.Svg3 {
+    width: 100px;
+    height: 13vh;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.Icons4 {
+    width: 100%;
+    height: 13vh;
+    background: none;
+    display: flex;
+    gap: 15px;
+}
+
+
+
+.Icons4>p {
+    font-size: 20px;
+}
+
+
+
+.Svg4 {
+    width: 100px;
+    height: 13vh;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.Yozuv {
+    width: 100%;
+    height: 13vh;
+    font-size: 20px;
+    color: rgb(0, 74, 148);
+    display: flex;
+    align-items: center;
+}

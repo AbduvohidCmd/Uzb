@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import orqaFon from '../../Img/Orqa fon.webp'
+// import orqaFon from '../../Img/Orqa fon.webp'
 import { FaFacebook } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 
@@ -9,7 +9,7 @@ import { FaYoutube } from "react-icons/fa";
 const Footer = () => {
     return (
         <div className='FooterConteiner'>
-            <img src={orqaFon} alt="" />
+            {/* <img src={orqaFon} alt="" /> */}
             <div className='Footer1'>
                 <div className='BoxIcon'>
                     <div className='IconYozuv'>
