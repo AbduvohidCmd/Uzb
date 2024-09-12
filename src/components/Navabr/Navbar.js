@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import "./Navbar.css";
 import { CiSearch } from "react-icons/ci";
-    import CallModal from '../callModal/CallModal.js';
+import CallModal from '../callModal/CallModal.js';
 
 const Navbar = () => {
     const navigate = useNavigate();
@@ -22,6 +22,10 @@ const Navbar = () => {
 
     const handleOproyektClick = () => {
         navigate('/Oproyekt');
+    };
+
+    const handleKatalogClick = () => {
+        navigate('/Katalog'); 
     };
 
     const handleCallModalOpen = () => {
@@ -47,13 +51,13 @@ const Navbar = () => {
                         <div className='div'></div>
                         <div className='Pteg'>
                             <p onClick={handleUzbekistanClick}>УЗБЕКИСТАН</p>
-                            <p onClick={handleOproyektClick}>О ПРОЕКТЕ</p> {}
+                            <p onClick={handleOproyektClick}>О ПРОЕКТЕ</p> { }
                             <p className='with-hover' onClick={handleExhibitionsClick}>
                                 МЕРОПРИЯТИЯ
                                 <div className='hover-text'>Ближайшие выставки</div>
                             </p>
                             <p onClick={handleNewsClick}>НОВОСТИ</p>
-                            <p>КАТАЛОГ ПРЕДПРИЯТИЙ</p>
+                            <p onClick={handleKatalogClick}>КАТАЛОГ ПРЕДПРИЯТИЙ</p> {/* Bu yerda o'zgartirdik */}
                         </div>
                     </div>
                 </div>

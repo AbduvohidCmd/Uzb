@@ -8,6 +8,7 @@ import Malumotlar from './components/Malumotlar/Malumotlar';
 import Footer from './components/Footer/Footer'
 import Novosti from './components/НОВОСТИ/Novosti';
 import Oproyekt from './components/Oproyekt/Oproyekt';
+import Katalog from './components/Katalog/Katalog';
 
 
 // import TeliminoraImg from './Img/TeliminoraImg/teliminoraImg.jpg'
@@ -22,6 +23,7 @@ const App = () => {
         <Route exect path='/Malumotlar' element={<Malumotlar />} />
         <Route exect path='/Novosti' element={<Novosti />} />
         <Route exect path='/Oproyekt' element={<Oproyekt />} />
+        <Route exect path='/Katalog' element={<Katalog/>} />
 
       </Routes>
       <Footer />

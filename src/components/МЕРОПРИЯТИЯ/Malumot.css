@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Konteynerning umumiy stili */
+.MalumotContenier {
+    width: 100%;
+    background: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Har bir ma'lumot qutisi uchun stil */
+.MalumotItem {
+    width: 250px;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 20px; /* Tugma uchun joy qoldirish */
+}
+
+/* Rasm qismi uchun stil */
+.MalumotImg1 {
+    width: 250px;
+    height: 250px;
+    background: none;
+}
+
+.MalumotImg1 > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Rasmni qutiga sig'dirish */
+}
+
+/* Yozuv qismi uchun stil */
+.MalumotYozuv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.MalumotYozuv > p {
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.MalumotYozuv > b {
+    color: rgb(0, 28, 119);
+    font-size: 20px;
+}
+
+/* Tugmalar uchun konteyner */
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    width: 230px;
+    height: 60px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: none;
+    color: rgb(212, 42, 42);
+    border: solid 1px rgb(212, 42, 42);
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(212, 42, 42);
+    color: white;
+    border: solid 1px white;
+}

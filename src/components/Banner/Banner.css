@@ -9,8 +9,8 @@
 
 .BannerConteiner {
     width: 100%;
-    height: 100vh;
-    background: none;
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.205);
     display: flex;
 }
 
@@ -18,7 +18,6 @@
 .BannerConteiner>img {
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.253);
     z-index: -1;
     position: absolute;
     top: 0;
@@ -40,12 +39,11 @@
 
 .BtnYozuv {
     width: 100%;
-    height: 40vh;
+    height: 30vh;
     background: none;
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    padding: 100px;
+    padding: 40px 100px;
 
 }
 
@@ -213,7 +211,7 @@
     width: 100%;
     height: 13vh;
     font-size: 20px;
-    color: rgb(0, 74, 148);
+    color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
 }
