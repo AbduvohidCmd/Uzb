@@ -44,9 +44,7 @@ const Malumot = () => {
         }, 1000); // 1 soniya loading effekti
     };
 
-    const handleReset = () => {
-        setData(initialData); // Asl holatga qaytarish
-    };
+
 
     return (
         <>
@@ -62,12 +60,12 @@ const Malumot = () => {
                         </div>
                     </div>
                 ))}
-                
+
                 {/* Buttonni "MalumotContenier" ichiga qo'shish */}
                 <div className='buttonContainer'>
-                  
-                        <button onClick={handleLoadMore}>Показатъ еще</button>
-                  
+
+                    <button onClick={handleLoadMore}>Показатъ еще</button>
+
                 </div>
             </div>
         </>

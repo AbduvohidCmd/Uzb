@@ -9,6 +9,8 @@
     align-items: center;
     justify-content: center;
     transition: opacity 1s ease;
+    z-index: 1000;
+    position: absolute;
 }
 
 .modal-content {

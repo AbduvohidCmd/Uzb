@@ -6,18 +6,78 @@
 }
 
 
+
 .LayoutContainer {
-    width: 60px;
+    width: 50px;
     height: 100vh;
     background: white;
-    box-shadow: 4px 0 8px rgba(0, 0, 0, 0.7); 
-    padding: 10px; 
+    box-shadow: 4px 0 8px rgba(201, 201, 201, 0.788); 
     z-index: 10;
     position: fixed; 
     top: 0;
     left: 0;
+    transition: border  0.3s ease; /* Chegarani silliq ko'rsatish */
 }
 
 
 
 
+
+.Icons {
+    width: 50px;
+    height: 50px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: rgba(100, 100, 100, 0.719);
+}
+
+
+
+.Sidebar {
+    position: absolute;
+    top: 0;
+    left: -250px; /* Boxni boshlang'ich holatda yashiramiz */
+    width: 250px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: left 0.3s ease; /* Silliq animatsiya uchun */
+}
+
+
+
+.Sidebar.open {
+    left: 50px; /* Box ochilganda ko'rsatiladi */
+    z-index: -1;
+    position: absolute;
+    top: 0;  
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    overflow-y: auto; 
+}
+
+
+.Sidebar.open>h1 {
+    color: rgb(182, 41, 41);
+}
+
+
+.Sidebar.open>p {
+    font-size: 18px;
+    color: rgb(12, 12, 12);
+}
+
+
+ /* .Overlay {
+    position: fixed;
+    top: 0;
+    right: px;
+    width: 80%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
+}  */

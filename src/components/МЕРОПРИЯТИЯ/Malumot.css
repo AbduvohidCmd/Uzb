@@ -8,15 +8,13 @@
 /* Konteynerning umumiy stili */
 .MalumotContenier {
     width: 100%;
-    background: rgb(250, 250, 250);
+    background: rgb(240, 240, 240);
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
     padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
 }
 
 /* Har bir ma'lumot qutisi uchun stil */
