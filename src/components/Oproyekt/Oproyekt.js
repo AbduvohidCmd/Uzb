@@ -42,12 +42,6 @@ const Oproyekt = () => {
                     <p className='TextP3'>торговли Республики Узбекистан, ежегодно проходит в</p>
                     <p className='TextP4'>городе Ташкент (Республика Узбекистан) и в других</p>
                     <p className='TextP5'>городах и странах.</p>
-                    <br />
-                    <h3 className='TextH3'>Цель проектаp</h3>
-                    <p className='TextP6'>экспортоориентированной продукции узбекских</p>
-                    <p className='TextP7'>предприятий, повышение экспортного потенциала</p>
-                    <p className='TextP7'>страны, выстраивание устойчивого и долгосрочного</p>
-                    <p className='TextP8'>сотрудничества с зарубежными партнерами.</p>
                 </div>
             </div>
 
@@ -68,6 +62,7 @@ const Oproyekt = () => {
                 </div>
                 <img src={Imgg} alt="Made in Uzbekistan" className="project-image" />
             </div>
+
 
             <div className="project-content3">
                 <h2>ТЕМАТИЧЕСКИЕ РАЗДЕЛЫ</h2>

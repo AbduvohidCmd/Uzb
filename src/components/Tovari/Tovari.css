@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* ----------Tovari---------- */
+
+.Tovari {
+    width: 100%;
+    height: 350px;
+    background-color: #f5f4f4;
+    display: flex;
+    align-items: start;
+    gap: 40px;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding-left: 80px;
+}
+
+.Tovari>h1 {
+    color: rgb(4, 4, 122);
+    font-size: 50px;
+}
+
+.Tovari>p {
+    font-size: 25px;
+}
+
+/* ----------Tovari2---------- */
+
+.Tovari2{
+    width: 100%;
+    height: 75vh;
+    padding: 50px;
+    padding-left: 100px;
+    gap: 50px;
+    display: flex;
+}
+
+.Tovari2Malumot2 {
+    width: 250px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5 9 #000;
+}
+
+.Img2>img {
+    width: 100%;
+    height: 100%;
+}
+
+.Tovari2Yozuv{
+    padding-left: 20px;
+}
+
+.Tovari2Yozuv>b{
+    color: rgb(4, 4, 122);
+}
+
+.IkkiP>p{
+    margin-top: 13.5px;
+    font-size: 14px;
+    color: #757373;
+}

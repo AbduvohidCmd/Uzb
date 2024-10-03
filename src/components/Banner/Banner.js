@@ -10,7 +10,7 @@ const Banner = () => {
     const navigate = useNavigate();
 
     const handleCatalogClick = () => {
-        navigate('/Katalog'); 
+        navigate('/Katalog');
     };
 
     return (
@@ -26,7 +26,7 @@ const Banner = () => {
                 <div className='Box'></div>
                 <div className='Icons1'>
                     <div className='Svg1'>
-                        <SearchIcon width="40" height="40" />
+                        <SearchIcon width="40" height="40" style={{ fill: 'rgb(255, 255, 255)' }} />
                     </div>
                     <div className='Yozuv'>
                         <p>Поиск партнеров</p>
@@ -34,7 +34,7 @@ const Banner = () => {
                 </div>
                 <div className='Icons2'>
                     <div className='Svg2'>
-                        <TruckIcon width="40" height="40" />
+                        <TruckIcon width="40" height="40" style={{ fill: 'rgb(255, 255, 255)' }} />
                     </div>
                     <div className='Yozuv'>
                         <p>Логистика из/в Узбекистан</p>
@@ -42,7 +42,7 @@ const Banner = () => {
                 </div>
                 <div className='Icons3'>
                     <div className='Svg3'>
-                        <LocationIcon width="40" height="40" />
+                        <LocationIcon width="40" height="40" style={{ fill: 'rgb(255, 255, 255)' }} />
                     </div>
                     <div className='Yozuv'>
                         <p>Выставки и мероприятия</p>
@@ -50,7 +50,7 @@ const Banner = () => {
                 </div>
                 <div className='Icons4'>
                     <div className='Svg4'>
-                        <LocationIcon width="40" height="40" />
+                        <LocationIcon width="40" height="40" style={{ fill: 'rgb(255, 255, 255)' }} />
                     </div>
                     <div className='Yozuv'>
                         <p>Как работать c Узбекистаном</p>

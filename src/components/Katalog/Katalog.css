@@ -5,12 +5,12 @@
     font-family: sans-serif;
 }
 
+/* -------------------------Katalog----------------------------- */
 
 .KatalogConteiner {
     width: 100%;
     height: 100%;
 }
-
 
 .Katalog {
     width: 100%;
@@ -20,13 +20,11 @@
     flex-direction: column;
 }
 
-
 .Katalog>p {
     padding: 100px 0px 0px 120px;
     font-size: 55px;
     color: rgb(7, 71, 134);
 }
-
 
 .Katalog>b {
     padding: 8px 0px 0px 120px;
@@ -34,62 +32,53 @@
     color: rgba(0, 0, 0, 0.829);
 }
 
+/* -------------------------Katalog3----------------------------- */
 
-
-.KatalogIcons {
+.Katalog3{
     width: 100%;
-    height: 100vh;
-    background: blue;
+    height: auto;
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding-left: 70px;
+    margin-top: 30px;
+    color: rgb(3, 3, 87);
 }
 
+/* -------------------------Katalog4----------------------------- */
 
-.IconsBox {
-    width: 90%;
+.Katalog4 {
+    width: 100%;
     height: 80vh;
-    background: red;
-}
-
-
-.icons1 {
-    width: 100%;
-    height: 127px;
-    background: gold;
-    display: flex;
-}
-
-
-.icons2 {
-    width: 100%;
-    height: 127px;
-    background: rgb(255, 0, 119);
-}
-
-
-
-.icons3 {
-    width: 100%;
-    height: 127px;
-    background: rgb(0, 238, 255);
-}
-
-
-
-.icons4 {
-    width: 100%;
-    height: 127px;
-    background: rgb(0, 174, 255);
-}
-
-
-
-.box1 {
-    width: 304px;
-    height: 127px;
-    background: red;
+    padding: 30px;
+    gap: 50px;
     display: flex;
     justify-content: center;
+}
+
+.Katalog4Malumot2 {
+    width: 250px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    gap: 20px;
+    display: flex;
     align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5 9 #000;
+}
+
+.Img2>img {
+    width: 100%;
+    height: 100%;
+}
+
+.Katalog4>.Katalog4Yozuv {
+    display: flex;
+    gap: 30px;
+}
+
+/* -------------------------Katalog5----------------------------- */
+
+.Katalog5>button{
+    margin-left: 42%;
 }

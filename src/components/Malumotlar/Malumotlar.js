@@ -11,15 +11,7 @@ const Malumotlar = () => {
         <div className='GegrafiyaContenier'>
           <div className='GegrafiyaMalumot'>
             <div className='BorederY'>
-              <div className='BorederBox1'>
-                <p>Общая информация</p>
-              </div>
-              <div className='BorederBox2'>
-                <p>Материалы в помощь</p>
-              </div>
-              <div className='BorederBox3'>
-                <p>Экспортный потенциа</p>
-              </div>
+              <p>ОСНОВНЫЕ   МАКРОЭКОНОМИЧЕСКИЕ   ПОКАЗАТЕЛИ</p>
             </div>
           </div>
         </div>

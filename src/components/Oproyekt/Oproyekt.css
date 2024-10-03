@@ -195,3 +195,131 @@
     line-height: 1.6;
     margin-bottom: 10px;
 }
+
+/* Media Queries for responsiveness */
+
+/* Kichik ekranlar (mobil telefonlar) */
+@media (max-width: 600px) {
+    .Oproyekt {
+        height: auto;
+        padding-left: 20px;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .Oproyekt>p {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .project-content {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .project-image {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .project-text {
+        width: 100%;
+    }
+
+    .project-text h2 {
+        font-size: 1.2em;
+    }
+
+    .project-text p {
+        font-size: 16px;
+    }
+
+    .section-item {
+        width: 100%;
+    }
+
+    .glavniy {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .glavniy>a {
+        font-size: 16px;
+    }
+
+    .project-content4H1 {
+        font-size: 24px;
+    }
+}
+
+/* O'rta ekranlar (planshetlar) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .Oproyekt {
+        height: auto;
+        padding-left: 30px;
+    }
+
+    .Oproyekt>p {
+        font-size: 40px;
+    }
+
+
+    .project-content {
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .project-image {
+        width: 80%;
+        margin-right: 0;
+    }
+
+    .project-text {
+        width: 100%;
+    }
+
+    .project-text h2 {
+        font-size: 1.4em;
+    }
+
+    .project-text p {
+        font-size: 18px;
+    }
+
+    .section-item {
+        width: 45%;
+    }
+
+    .project-content4H1 {
+        font-size: 28px;
+    }
+}
+
+/* Katta ekranlar (katta planshetlar va kichik kompyuter ekranlari) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .Oproyekt>p {
+        font-size: 50px;
+    }
+
+    .project-image {
+        width: 50%;
+    }
+
+    .project-text {
+        width: 100%;
+    }
+
+    .project-text h2 {
+        font-size: 1.6em;
+    }
+
+    .project-text p {
+        font-size: 20px;
+    }
+
+    .section-item {
+        width: 30%;
+    }
+}

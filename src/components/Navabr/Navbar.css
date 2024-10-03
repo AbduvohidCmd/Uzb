@@ -5,16 +5,13 @@
     font-family: sans-serif;
 }
 
-
-
 .NavContenier {
     width: 100%;
     height: 120px;
     background-color: rgb(255, 255, 255);
     display: flex;
+    position: relative;
 }
-
-
 
 .Nav {
     width: 850px;
@@ -22,24 +19,28 @@
     background: none;
 }
 
-
-
 .NavInp {
     width: 100%;
     height: 80px;
     background: none;
     display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    gap: 48px;
 }
 
-
-
 .ImgIcon {
-    width: 400px;
-    height: 80px;
+    width: 220px;
+    height: 60px;
     background: none;
 }
 
 
+.ImgIcon>img {
+    width: 100%;
+    height: 100%;
+}
 
 .input-container {
     position: relative;
@@ -62,7 +63,6 @@
     font-size: 30px;
 }
 
-
 .input-container>input {
     width: 450px;
     height: 60px;
@@ -70,8 +70,15 @@
     font-size: 16px;
 }
 
-
-
+.bar-icon {
+    display: none;
+    position: absolute;
+    right: -50px;
+    top: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+}
 
 
 .NavKat {
@@ -81,14 +88,11 @@
     display: flex;
 }
 
-
 .div {
     width: 150px;
     height: 40px;
     background: none;
 }
-
-
 
 .Pteg {
     width: 100%;
@@ -99,8 +103,6 @@
     gap: 37px;
     font-size: 14px;
 }
-
-
 
 .Pteg>p:hover {
     color: rgb(0, 74, 148);
@@ -136,16 +138,12 @@
     font-size: 15px;
 }
 
-
 .hover-text:hover {
-    color:  brown;
+    color: brown;
 }
 
-
-
-
 .NavKatalog {
-    width: 600px;
+    width: 500px;
     height: 120px;
     background: none;
     display: flex;
@@ -155,27 +153,79 @@
     gap: 20px;
 }
 
-
-
 .NavKatalog>b {
     font-size: 14px;
     color: brown;
 }
 
-
-
 .NavKatalog>b:hover {
     color: rgb(0, 74, 148);
 }
-
-
 
 .NavKatalog>h1 {
     color: rgb(0, 74, 148);
 }
 
-
-
 .NavKatalog>h1:hover {
     color: brown;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.close-btn {
+    align-self: flex-end;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-open .NavKat,
+.menu-open .NavKatalog {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .ImgIcon {
+        display: none;
+    }
+
+    .input-container>input {
+        width: 300px;
+    }
+
+    .bar-icon {
+        display: block;
+    }
+
+    .menu-open .NavKat,
+    .menu-open .NavKatalog {
+        display: none;
+    }
+
+    .NavKat {
+        display: none;
+    }
+
+    .NavKatalog {
+        display: none;
+    }
 }
