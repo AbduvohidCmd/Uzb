@@ -72,17 +72,10 @@ const Layout = () => {
             <div className={`Sidebar ${isOpen ? 'open' : ''}`}>
                 <h1>В начало</h1>
                 <p onClick={() => handleNavigation('/Agrarniy')}>Аграрный сектор и пищевая промышленность</p>
-                <p onClick={() => handleNavigation('/mebel')}>Мебельная</p>
-                <p onClick={() => handleNavigation('/stroitelniye-materiali')}>Строительные материалы</p>
-                <p onClick={() => handleNavigation('/elektrotehnicheskaya')}>Электротехническая</p>
-                <p onClick={() => handleNavigation('/farmatsevticheskaya')}>Фармацевтическая</p>
-                <p onClick={() => handleNavigation('/narodno-prikladnoe-iskusstvo')}>Народно-прикладное искусство</p>
-                <p onClick={() => handleNavigation('/turizm')}>Туризм</p>
-                <p onClick={() => handleNavigation('/shelkovaya-otrasl')}>Шелковая отрасль</p>
-                <p onClick={() => handleNavigation('/gossektor')}>Госсектор, финансы, консалтинг</p>
-                <p onClick={() => handleNavigation('/khimicheskaya')}>Химическая</p>
-                <p onClick={() => handleNavigation('/vinogradarstvo')}>Виноградарство</p>
-                <p onClick={() => handleNavigation('/avtomobile-i-mashinostroitelniye')}>Автомобиле- и машиностроительная отрасли</p>
+                <p onClick={() => handleNavigation('/Mebal')}>Мебельная</p>
+                <p onClick={() => handleNavigation('/Elektro')}>Электротехническая</p>
+                <p onClick={() => handleNavigation('/Farm')}>Фармацевтическая</p>
+                <p onClick={() => handleNavigation('/Naradno')}>Народно-прикладное искусство</p>
                 <p onClick={() => handleNavigation('/Tovari')}>Товары народного потребления</p>
             </div>
         </div>
@@ -90,4 +83,3 @@ const Layout = () => {
 };
 
 export default Layout;
-
