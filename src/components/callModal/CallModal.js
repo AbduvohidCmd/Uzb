@@ -11,19 +11,35 @@ const CallModal = ({ isOpen, onClose }) => {
     useEffect(() => {
         if (!isOpen) {
             setClosing(false);
+            setPhone('');
+            setError('');
+            setSubmitted(false);
         }
     }, [isOpen]);
 
     if (!isOpen && !closing) return null;
 
+    const isValidPhone = (phone) => {
+        const phoneRegex = /^[0-9]+$/;
+        return phoneRegex.test(phone) && phone.length >= 10;
+    };
+
     const handleSubmit = () => {
-        if (phone.trim() === '') {
-            setError('Пожалуйста, заполните все обязательные поля');
+        if (!isValidPhone(phone)) {
+            setError('');
+            setSubmitted(true);
             return;
         }
-        console.log('Телефон ракам:', phone);
+        console.log('Телефон:', phone);
         setError('');
-        setSubmitted(true);
+        setSubmitted(false);
+    };
+
+    const handlePhoneChange = (e) => {
+        setPhone(e.target.value);
+        if (isValidPhone(e.target.value)) {
+            setError('');
+        }
     };
 
     const handleClose = () => {
@@ -33,22 +49,18 @@ const CallModal = ({ isOpen, onClose }) => {
         }, 1000);
     };
 
-
     return (
         <div className={`modal-overlay ${closing ? 'fade-out' : ''}`}>
-            <button className='modal-close' onClick={handleClose}>
+            <button className='modal-close' onClick={handleClose} aria-label="Close modal">
                 <AiOutlineClose />
             </button>
             <div className={`modal-content ${closing ? 'slide-up' : ''}`}>
                 <h1 className='callH1'>Заказать звонок</h1>
-                <br />
                 {submitted ? (
                     <div className='success-message'>
-                        <p>Данные успешно отправлены. Спасибо!</p>
-                        <br />
-                        <p>Ma'lumotlar muvaffaqiyatli yuborildi. Rahmat!</p>
-                        <br />
                         <p>Data successfully sent. Thank you!</p>
+                        <p>Данные успешно отправлены. Спасибо!</p>
+                        <p>Ma'lumotlar muvaffaqiyatli yuborildi. Rahmat!</p>
                     </div>
                 ) : (
                     <>
@@ -56,12 +68,11 @@ const CallModal = ({ isOpen, onClose }) => {
                             <p className='callP'>Введите ваш номер телефона.</p>
                             <p className='callP1'>Наши операторы свяжутся с вами.</p>
                         </div>
-                        <br />
                         <div className="BtnInp">
                             <input
                                 type="text"
                                 value={phone}
-                                onChange={(e) => setPhone(e.target.value)}
+                                onChange={handlePhoneChange}
                                 placeholder="Телефон"
                                 className="phone-input"
                             />
