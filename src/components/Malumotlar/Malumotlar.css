@@ -27,47 +27,25 @@
 
 
 
-.MalumotBaza {
+
+
+
+
+
+.GegrafiyaMalumot {
     width: 100%;
-    height: 500vh;
-    background: rgba(128, 128, 128, 0.192);
-}
-
-
-
-.GegrafiyaContenier {
-    width: 100%;
-    height: 100vh;
-    background: rgb(255, 255, 255);
+    height: 15vh;
+    background: none;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.GegrafiyaMalumot {
-    width: 86%;
-    height: 90vh;
-    background: none;
-}
-
-
-/* .BorederY div {
-    cursor: pointer;
-    padding: 10px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-
-.BorederY div:active {
-    background-color: rgb(0, 28, 119);
-    color: white;
-} */
-
 
 
 .BorederY {
-    width: 100%;
+    width: 86%;
     height: 60px;
     background: repeat;
     display: flex;
@@ -78,4 +56,56 @@
     color: #ee0303;
     font-size: 26px;
     letter-spacing: 1px;
+}
+
+
+
+
+/* ----------Geografiya---------- */
+
+.Geografiy{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* ----------Klimat---------- */
+
+.KlimatContenier {
+    width: 100%;
+    height: 55vh;
+    padding: 30px;
+    text-align: center; 
+}
+
+.KlimatContenier h2 {
+    color: #0044cc;
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+.KlimatContenier p{
+    padding-bottom: 20px;
+}
+
+.KlimatDetails {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.Temperature,
+.Humidity {
+    font-size: 1.2rem;
+}
+
+.Temperature span,
+.Humidity span {
+    font-size: 2rem;
+    margin-right: 10px;
 }
