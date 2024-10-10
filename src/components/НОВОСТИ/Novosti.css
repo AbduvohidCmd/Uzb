@@ -10,26 +10,49 @@
 .Novosti {
     width: 100%;
     height: 350px;
-    padding: 0 20px;
-    background: repeat;
+    background: linear-gradient(to bottom, white, rgba(0, 255, 255, 0.137));
+    display: flex;
+    align-items: start;
+    gap: 40px;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding-left: 40px;
+}
+
+.Novosti>img {
+    width: 100%;
+    height: 74.2%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 
-.Novosti h1 {
-    letter-spacing: 1.5px;
-    font-size: 3rem;
-    color: rgb(0, 28, 119);
-    margin: 0;
-    max-width: 80%;
-    line-height: 1.2;
-    padding: 150px 100px;
+.Novosti p {
+    font-size: 55px;
+    color: rgb(7, 71, 134);
 }
 
+.glavniy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
 
+.glavniy>a {
+    font-size: 20px;
+}
+
+.glavniy>p {
+    color: rgb(7, 71, 134);
+}
 
 .NovostiContenier {
     width: 100%;
-    height: 220vh;
+    height: 120vh;
     background: rgb(250, 250, 250);
     display: flex;
     justify-content: center;
@@ -80,7 +103,7 @@
 .Img1 {
     width: 250px;
     height: 250px;
-    background: rgb(47, 0, 255);
+    background: none;
 }
 
 
@@ -121,7 +144,7 @@
 .Img2 {
     width: 250px;
     height: 250px;
-    background: rgb(47, 0, 255);
+    background: none;
 }
 
 
@@ -161,7 +184,7 @@
 .Img3 {
     width: 250px;
     height: 250px;
-    background: rgb(47, 0, 255);
+    background: none;
 }
 
 
@@ -174,7 +197,7 @@
 .Img3 {
     width: 250px;
     height: 250px;
-    background: rgb(47, 0, 255);
+    background: none;
 }
 
 
@@ -190,7 +213,7 @@
 .Img4 {
     width: 250px;
     height: 250px;
-    background: rgb(47, 0, 255);
+    background: none;
 }
 
 .NovostiYozuv>e {
@@ -215,7 +238,7 @@
 .Img4 {
     width: 250px;
     height: 250px;
-    background: rgb(47, 0, 255);
+    background: none;
 }
 
 
@@ -256,7 +279,7 @@
 .Img5 {
     width: 250px;
     height: 250px;
-    background: rgb(47, 0, 255);
+    background: none;
 }
 
 
@@ -269,7 +292,7 @@
 .Img5 {
     width: 250px;
     height: 250px;
-    background: rgb(47, 0, 255);
+    background: none;
 }
 
 
@@ -304,7 +327,7 @@
 .Img6 {
     width: 250px;
     height: 250px;
-    background: rgb(47, 0, 255);
+    background: none;
 }
 
 
@@ -317,7 +340,7 @@
 .Img6 {
     width: 250px;
     height: 250px;
-    background: rgb(47, 0, 255);
+    background: none;
 }
 
 
@@ -351,7 +374,7 @@
 .Img7 {
     width: 250px;
     height: 250px;
-    background: rgb(47, 0, 255);
+    background: none;
 }
 
 
@@ -364,7 +387,7 @@
 .Img7 {
     width: 250px;
     height: 250px;
-    background: rgb(47, 0, 255);
+    background: none;
 }
 
 
@@ -399,18 +422,11 @@
 .Img8 {
     width: 250px;
     height: 250px;
-    background: rgb(47, 0, 255);
+    background: none;
 }
 
 
 .Img8>img {
     width: 100%;
     height: 100%;
-}
-
-
-.Img8 {
-    width: 250px;
-    height: 250px;
-    background: rgb(47, 0, 255);
 }

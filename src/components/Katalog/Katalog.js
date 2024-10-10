@@ -3,6 +3,8 @@ import './Katalog.css'
 import Layout from '../Layout/Layout'
 import { FaTractor, FaTshirt, FaShoePrints, FaCouch, FaTools, FaFlask, FaPlug, FaPills, FaGuitar, FaRoute, FaRegFlag, FaBriefcase } from 'react-icons/fa';
 import Fashion from '../../Img/Fashion.jpg'
+import OrqaFon from '../../Img/Orqa fon.webp';
+import { MdChevronRight } from "react-icons/md";
 // import boots from '../../Img/KatalogImg/boots.png'
 
 const Katalog = () => {
@@ -26,8 +28,13 @@ const Katalog = () => {
     <div className='KatalogConteiner'>
 
       <div className='Katalog'>
+        <img src={OrqaFon} alt="" />
         <p>КАТАЛОГ ПРЕДПРИЯТИЙ УЗБЕКИСТАНА</p>
         <b>Экспортеры и экспортно ориентированные компании региона</b>
+        <div className="glavniy1">
+          <a href="/">Главная <MdChevronRight /></a>
+          <p>KАТАЛОГ</p>
+        </div>
       </div>
 
       <div className="Katalog2">

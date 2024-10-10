@@ -5,32 +5,47 @@
     font-family: sans-serif;
 }
 
-
 .MalumotlarConteiner {
     width: 100%;
     height: 350px;
-    padding: 0 20px;
-    background: repeat;
+    background: linear-gradient(to bottom, white, rgba(0, 255, 255, 0.137));
+    display: flex;
+    align-items: start;
+    gap: 40px;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding-left: 40px;
 }
 
-
-.MalumotlarConteiner h1 {
-    letter-spacing: -2.5px;
-    font-size: 3rem;
-    color: #ee0303;
-    margin: 0;
-    max-width: 80%;
-    line-height: 1.2;
-    padding: 150px 100px;
+.MalumotlarConteiner>img {
+    width: 100%;
+    height: 74.2%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
+.MalumotlarConteiner>p {
+    font-size: 55px;
+    color: rgb(0, 28, 119);
+}
 
+.glavniy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
 
+.glavniy>a {
+    font-size: 20px;
+}
 
-
-
-
-
+.glavniy>p {
+    color: rgb(0, 28, 119);
+}
 
 .GegrafiyaMalumot {
     width: 100%;
@@ -39,10 +54,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
-
-
-
 
 .BorederY {
     width: 86%;
@@ -53,24 +66,67 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ee0303;
+    color: rgb(0, 28, 119);
     font-size: 26px;
     letter-spacing: 1px;
 }
 
-
-
-
 /* ----------Geografiya---------- */
 
-.Geografiy{
+.Geografiy {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
 }
 
+.imgg {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imgg img {
+    max-width: 70%;
+    height: auto;
+}
+
+.Geografiy>b {
+    color: rgb(169, 8, 8);
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 ta ustun */
+    gap: 20px;
+    width: 100%;
+}
+
+.detail-block {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detail-block h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #003366;
+}
+
+.detail-block p {
+    margin: 10px 0 0;
+    font-size: 1em;
+    color: #666666;
+}
 
 
 
@@ -80,7 +136,7 @@
     width: 100%;
     height: 55vh;
     padding: 30px;
-    text-align: center; 
+    text-align: center;
 }
 
 .KlimatContenier h2 {
@@ -89,7 +145,7 @@
     padding-bottom: 30px;
 }
 
-.KlimatContenier p{
+.KlimatContenier p {
     padding-bottom: 20px;
 }
 

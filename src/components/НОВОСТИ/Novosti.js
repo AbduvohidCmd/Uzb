@@ -5,14 +5,22 @@ import Mevalar from '../../Img/Mevalar.jpg'
 import ElektronImg from '../../Img/EloktirImg.jpg'
 import Samalot from '../../Img/Samalot.jpg'
 import Naqsh from '../../Img/Naqsh.jpg'
+import OrqaFon from '../../Img/Orqa fon.webp';
+import { MdChevronRight } from "react-icons/md";
 
 
 const Novosti = () => {
     return (
         <>
             <div className='Novosti'>
-                <h1>НОВОСТИ</h1>
+            <img src={OrqaFon} alt="" />
+                <p>НОВОСТИ</p>
+                <div className="glavniy">
+                    <a href="/">Главная <MdChevronRight /></a>
+                    <p>НОВОСТИ</p>
+                </div>
             </div>
+
             <div className='NovostiContenier'>
                 <div className='NovostiMalumot1'>
                     <div className='Img1'>
@@ -54,7 +62,7 @@ const Novosti = () => {
                         </div>
                     </div>
                 </div>
-                <div className='NovostiMalumot5'>
+                {/* <div className='NovostiMalumot5'>
                     <div className='Img5'>
                         <img src={Naqsh} alt="" />
                         <div className='NovostiYozuv'>
@@ -93,7 +101,7 @@ const Novosti = () => {
                         <b>"Электродрайвер" экономики</b>
                         <p>Электротехническая отрасль может войти в число ведущих отраслей промышленности республики</p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )

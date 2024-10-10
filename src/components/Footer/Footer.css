@@ -9,17 +9,17 @@
 .FooterConteiner {
     width: 100%;
     height: 60vh;
-    background: linear-gradient(to bottom, white, rgba(0, 255, 255, 0.137));
+    background: none;
     display: flex;
 }
 
 
 .FooterConteiner>img {
     width: 100%;
-    height: 500px;
+    height: 60vh;
     z-index: -1;
-    position: absolute;
-    top: 0;
+    position: absolute;;
+    bottom: 100;
     left: 0;
 }
 
@@ -118,8 +118,12 @@
     font-size: 18px;
     color: rgb(7, 71, 134);
     display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+
+.Media>img {
+    width: 85%;
+    height: 60%;
 }
 
 
@@ -128,20 +132,20 @@
     width: 215px;
     height: 17vh;
     background: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 
 .BoxBtn>button {
-    width: 215px;
+    width: 85%;
     height: 50px;
     border-radius: 30px;
     outline: none;
     border: none;
     background: brown;
     color: white;
+    font-size: 11.5px;
+
 }
 
 

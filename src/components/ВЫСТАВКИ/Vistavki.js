@@ -5,6 +5,7 @@ import Sport from '../../Img/sport.jpg'
 import Tashabuslar from '../../Img/Tashabuslar.jpg'
 import CmImg from '../../Img/CmImg.jpg'
 import OrqaFon from '../../Img/Orqa fon.webp'
+import { MdChevronRight } from "react-icons/md";
 
 const Vistavki = () => {
     return (
@@ -12,6 +13,10 @@ const Vistavki = () => {
             <div className='Vistavki'>
                 <img src={OrqaFon} alt="" />
                 <p>ВЫСТАВКИ</p>
+                <div className="glavniy">
+                    <a href="/">Главная <MdChevronRight /></a>
+                    <p>ВЫСТАВКИ</p>
+                </div>
             </div>
             <div className='VistavkiContenier'>
                 <div className='VistavkiMalumot1'>

@@ -73,13 +73,17 @@ const Navbar = () => {
         setSearchQuery(''); // Input maydonini tozalash
     };
 
+    const handleLogoClick = () => {
+        navigate('/'); // Asosiy sahifaga o'tish
+    };
+
     return (
         <>
             <div className={`NavContenier ${showMenu ? 'menu-open' : ''}`}>
                 <div className='Nav'>
                     <div className='NavInp'>
-                        <div className='ImgIcon'>
-                            <img src={MadeInNamangan} alt="" />
+                        <div className='ImgIcon' onClick={handleLogoClick}>
+                            <img src={MadeInNamangan} alt="Logo" />
                         </div>
                         <div className='input-container'>
                             <input

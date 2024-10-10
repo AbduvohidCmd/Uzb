@@ -29,7 +29,7 @@ const Oproyekt = () => {
                 <img src={OrqaFon} alt="" />
                 <p>О ПРОЕКТЕ</p>
                 <div className="glavniy">
-                    <a href="">Главная <MdChevronRight /></a>
+                    <a href="/">Главная <MdChevronRight /></a>
                     <p>О ПРОЕКТЕ</p>
                 </div>
             </div>

@@ -1,15 +1,17 @@
 import React from 'react'
 import './Footer.css'
-// import orqaFon from '../../Img/Orqa fon.webp'
 import { FaFacebook } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+// import OrqaFon from '../../Img/Orqa fon.webp'
+
+import FooterImg from '../../Img/Navbar/MadeInNamangan.jpg'
 
 // import { FaFacebookF, FaTwitter, FaGooglePlusG, FaLinkedinIn, FaApple, FaAndroid } from 'react-icons/fa';
 
 const Footer = () => {
     return (
         <div className='FooterConteiner'>
-            {/* <img src={orqaFon} alt="" /> */}
+            {/* <img src={OrqaFon} alt="" /> */}
             <div className='Footer1'>
                 <div className='BoxIcon'>
                     <div className='IconYozuv'>
@@ -28,7 +30,7 @@ const Footer = () => {
                     <div className='YoqBox'></div>
                     <div className='BoxMedia'>
                         <div className='Media'>
-                            <h1>NAMANGAN</h1>
+                            <img src={FooterImg} alt="" />
                         </div>
                         <div className="BoxBtn">
                             <button>КАТАЛОГ ПРЕДПРИЯТИЙ</button>
