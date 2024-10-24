@@ -15,9 +15,12 @@ import Naradno from './components/Narodno/Narodno';
 import Elektro from './components/Elektro/Elektro';
 import Farm from './components/Farm/Farm';
 import Mebal from './components/MebelPage/Mebal';
+import Stol from './components/page/Stol/Stol';
+import Sarkor from './components/page/Sarkor/Sarkor'
+import StolToplam from './components/page/StolToplam/StolToplam';
+import MebelStol from './components/page/MebelStol/MebelStol';
 
 
-// import TeliminoraImg from './Img/TeliminoraImg/teliminoraImg.jpg'
 
 const App = () => {
   return (
@@ -36,12 +39,15 @@ const App = () => {
         <Route exect path='/Elektro' element={<Elektro />} />
         <Route exect path='/Farm' element={<Farm />} />
         <Route exect path='/Mebal' element={<Mebal />} />
+        <Route path="/stol" element={<Stol/>} />
+        <Route path="/sarkor" element={<Sarkor/>} />
+        <Route path="/stolToplam" element={<StolToplam/>} />
+        <Route path="/mebelStol" element={<MebelStol/>} />
 
       </Routes>
       <Footer />
 
-      {/* <img src={TeliminoraImg} alt="" />
-      <div className='ImgGrey'></div> */}
+
 
     </div>
   )

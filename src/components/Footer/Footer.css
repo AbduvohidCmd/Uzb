@@ -173,7 +173,18 @@
 .FooterYozuv1>p {
     color: rgb(7, 71, 134);
     font-size: 15px;
+    cursor: pointer;
 }
+
+
+
+.FooterYozuv1>p:hover {
+    color: rgb(70, 162, 255);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
 
 
 
@@ -190,9 +201,15 @@
 
 
 
+.FooterYozuv2>p:hover {
+    color: rgb(70, 162, 255);
+}
+
+
 .FooterYozuv2>p {
     color: rgb(7, 71, 134);
     font-size: 15px;
+    cursor: pointer;
 }
 
 
@@ -212,12 +229,21 @@
 .FooterYozuv3>p {
     color: rgb(7, 71, 134);
     font-size: 15px;
+    cursor: pointer;
+}
+
+
+.FooterYozuv3>p:hover {
+    color: rgb(70, 162, 255);
+    font-size: 15px;
+    cursor: pointer;
 }
 
 
 .FooterYozuv3>b {
     color: rgb(16, 0, 59);
     font-size: 15px;
+    cursor: pointer;
 }
 
 
@@ -262,6 +288,13 @@
 
 .BoxYozuv1>b {
     color: rgb(7, 71, 134);
+    cursor: pointer;
+}
+
+
+.BoxYozuv1>b:hover {
+    color: rgb(70, 162, 255);
+    cursor: pointer;
 }
 
 
@@ -284,4 +317,12 @@
 
 .BoxYozuv2>b {
     color: rgb(7, 71, 134);
+    cursor: pointer;
+}
+
+
+
+.BoxYozuv2>b:hover {
+    color: rgb(70, 162, 255);
+    cursor: pointer;
 }

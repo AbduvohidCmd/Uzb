@@ -1,17 +1,31 @@
-import React from 'react'
-import './Footer.css'
-import { FaFacebook } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-// import OrqaFon from '../../Img/Orqa fon.webp'
-
-import FooterImg from '../../Img/Navbar/MadeInNamangan.jpg'
-
-// import { FaFacebookF, FaTwitter, FaGooglePlusG, FaLinkedinIn, FaApple, FaAndroid } from 'react-icons/fa';
+import React from 'react';
+import './Footer.css';
+import { FaFacebook, FaYoutube } from "react-icons/fa";
+import FooterImg from '../../Img/Navbar/MadeInNamangan.jpg';
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+    const navigate = useNavigate();
+
+
+    const handleMalumotlarClick = () => {
+        navigate('/Malumotlar');
+    };
+
+    const handleOproyektClick = () => {
+        navigate('/Oproyekt');
+    };
+
+    const handleVistavkiClick = () => {
+        navigate('/vistavki');
+    };
+
+    const handleKatalogClick = () => {
+        navigate('/Katalog');
+    };
+
     return (
         <div className='FooterConteiner'>
-            {/* <img src={OrqaFon} alt="" /> */}
             <div className='Footer1'>
                 <div className='BoxIcon'>
                     <div className='IconYozuv'>
@@ -23,7 +37,6 @@ const Footer = () => {
                             <FaFacebook />
                             <FaYoutube />
                         </div>
-
                     </div>
                 </div>
                 <div className='BoxYozuv'>
@@ -33,18 +46,18 @@ const Footer = () => {
                             <img src={FooterImg} alt="" />
                         </div>
                         <div className="BoxBtn">
-                            <button>КАТАЛОГ ПРЕДПРИЯТИЙ</button>
+                            <button onClick={handleKatalogClick}>КАТАЛОГ ПРЕДПРИЯТИЙ</button> {/* Katalog tugmasini navigatsiya bilan bog'ladik */}
                         </div>
                     </div>
                 </div>
             </div>
             <div className='Footer2'>
                 <div className='FooterYozuv1'>
-                    <p>УЗБЕКИСТАНО</p>
-                    <p>O ПРОЕКТЕ</p>
+                    <p onClick={handleMalumotlarClick}>УЗБЕКИСТАНО</p>
+                    <p onClick={handleOproyektClick}>O ПРОЕКТЕ</p>
                 </div>
                 <div className='FooterYozuv2'>
-                    <p>ВЫСТАВКИ</p>
+                    <p onClick={handleVistavkiClick}>ВЫСТАВКИ</p>
                     <p>MADE IN UZBEKISTAN</p>
                 </div>
                 <div className='FooterYozuv3'>
@@ -56,22 +69,17 @@ const Footer = () => {
                 <div className='box'></div>
                 <div className='YozuvBox'>
                     <div className='BoxYozuv1'>
-                        <p
-                        >Министерство инвестиций и внешней
-                            торговли РУ
-                        </p>
+                        <p>Министерство инвестиций и внешней торговли РУ</p>
                         <b>mitt.uz</b>
                     </div>
                     <div className='BoxYozuv2'>
-                        <p>Агентство продвижения
-                            экспорта РУ</p>
+                        <p>Агентство продвижения экспорта РУ</p>
                         <b>epauzb.uz</b>
                     </div>
-
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;
