@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Mebal.css';
 import Layout from '../Layout/Layout';
-import Stol from '../../Img/MebelImg/Stol.jpg';
-import Sarkor from '../../Img/MebelImg/Sarkor.jpg';
-import StolToplam from '../../Img/MebelImg/StolToplam.webp';
-import Mebel from '../../Img/MebelImg/MebelStol.jpg';
 
 const Mebal = () => {
+    const [mebelTexts, setMebelTexts] = useState([]);
     const navigate = useNavigate();
+
+    // Backenddan ma'lumotlarni olish
+    useEffect(() => {
+        // Backend API-ni almashtirish kerak o'zingizning URLingiz bilan
+        fetch('https://your-backend-api-url.com/mebels')
+            .then(response => response.json())
+            .then(data => setMebelTexts(data))
+            .catch(error => console.error('Ma\'lumotlarni olishda xatolik:', error));
+    }, []);
 
     return (
         <>
@@ -18,26 +24,13 @@ const Mebal = () => {
                 <p>Мебельная отрасль</p>
             </div>
             <div className='MebelBox'>
-                <div className='BoxPage' onClick={() => navigate('/stol')}>
-                    <div className='Img'>
-                        <img src={Stol} alt="" />
+                {mebelTexts.map((mebel) => (
+                    <div key={mebel.id} className='BoxPage'>
+                        <div className='Text'>
+                            <p>{mebel.text}</p>
+                        </div>
                     </div>
-                </div>
-                <div className='BoxPage' onClick={() => navigate('/sarkor')}>
-                    <div className='Img'>
-                        <img src={Sarkor} alt="" />
-                    </div>
-                </div>
-                <div className='BoxPage' onClick={() => navigate('/stolToplam')}>
-                    <div className='Img'>
-                        <img src={StolToplam} alt="" />
-                    </div>
-                </div>
-                <div className='BoxPage' onClick={() => navigate('/mebelStol')}>
-                    <div className='Img'>
-                        <img src={Mebel} alt="" />
-                    </div>
-                </div>
+                ))}
             </div>
         </>
     );

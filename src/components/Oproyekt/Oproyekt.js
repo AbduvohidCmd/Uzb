@@ -1,9 +1,9 @@
-import React from 'react';
+    import React from 'react';
 import './Oproyekt.css';
 import OrqaFon from '../../Img/Orqa fon.webp';
 import { MdChevronRight } from "react-icons/md";
-import Imgg1 from '../../Img/imgg1.jpg';
-import Imgg from '../../Img/imgg.jpg';
+// import Imgg1 from '../../Img/imgg1.jpg';
+// import Imgg from '../../Img/imgg.jpg';
 import { FaTractor, FaTshirt, FaShoePrints, FaCouch, FaTools, FaFlask, FaPlug, FaPills, FaGuitar, FaRoute, FaRegFlag, FaBriefcase } from 'react-icons/fa';
 
 const Oproyekt = () => {
@@ -35,19 +35,19 @@ const Oproyekt = () => {
             </div>
 
             <div className="project-content">
-                <img src={Imgg1} alt="Made in Uzbekistan" className="project-image" />
+                {/* <img src={Imgg1} alt="Made in Uzbekistan" className="project-image" /> */}
                 <div className="project-text">
-                    <p className='TextP'>Бизнес-миссия «Made in Uzbekistan», организатором</p>
+                    {/* <p className='TextP'>Бизнес-миссия «Made in Uzbekistan», организатором</p>
                     <p className='TextP1'>которой выступает Министерство инвестиций и внешней</p>
                     <p className='TextP3'>торговли Республики Узбекистан, ежегодно проходит в</p>
                     <p className='TextP4'>городе Ташкент (Республика Узбекистан) и в других</p>
-                    <p className='TextP5'>городах и странах.</p>
+                    <p className='TextP5'>городах и странах.</p> */}
                 </div>
             </div>
 
             <div className="project-content2">
                 <div className="project-text">
-                    <p className='TextP'>В 2020 году бизнес-миссия «Made in</p>
+                    {/* <p className='TextP'>В 2020 году бизнес-миссия «Made in</p>
                     <p className='TextP1'>Uzbekistan» впервые будет проходить в</p>
                     <p className='TextP3'> Российской Федерации в г.Москва и других</p>
                     <p className='TextP4'>крупных индустриальных округах.</p>
@@ -58,9 +58,9 @@ const Oproyekt = () => {
                     <p className='TextP8'>деловая программа, организация</p>
                     <p className='TextP9'>двусторонних переговоров между</p>
                     <p className='TextP10'>экспортерами и потребителями узбекской</p>
-                    <p className='TextP11'>продукции.</p>
+                    <p className='TextP11'>продукции.</p> */}
                 </div>
-                <img src={Imgg} alt="Made in Uzbekistan" className="project-image" />
+                {/* <img src={Imgg} alt="Made in Uzbekistan" className="project-image" /> */}
             </div>
 
 
@@ -76,7 +76,7 @@ const Oproyekt = () => {
                 </div>
             </div>
             <div className="project-content4">
-                <h2 className='project-content4H11'>В рамках деловой программы выставки <br /> будут проходить:</h2>
+                {/* <h2 className='project-content4H11'>В рамках деловой программы выставки <br /> будут проходить:</h2>
                 <div className="project-text">
                     <p className='TextP'>• Презентации экспортного потенциала отраслей <br /> национальной экономики;</p>
                     <br />
@@ -89,12 +89,12 @@ const Oproyekt = () => {
                     <p className='TextP5'>• Переговоры с иностранными компаниями;</p>
                     <br />
                     <p className='TextP6'>• Регистрация заключаемых контрактов.</p>
-                </div>
+                </div> */}
             </div>
 
             <div className="project-content5">
                 <div className="project1">
-                    <h1 className='project-content4H1'>история</h1>
+                    {/* <h1 className='project-content4H1'>история</h1>
                     <br />
                     <br />
                     <h2>7 - 9 марта, 2018г.</h2>
@@ -105,15 +105,15 @@ const Oproyekt = () => {
                     <br />
                     <h2>28 июня – 4 июля, 2019г</h2>
                     <br />
-                    <h2>29 июля – 2 августа, 2019г.</h2>
+                    <h2>29 июля – 2 августа, 2019г.</h2> */}
                 </div>
 
                 <div className="project-text">
-                    <p className='TextP'>• Презентации экспортного потенциала отраслей национальной экономики;</p>
+                    {/* <p className='TextP'>• Презентации экспортного потенциала отраслей национальной экономики;</p>
                     <p className='TextP1'>• Показ мод готовой текстильной продукции;</p>
                     <p className='TextP3'>• Демонстрация процесса изготовления продуктов ремесленничества и национальной кухни;</p>
                     <p className='TextP4'>• Переговоры с иностранными компаниями;</p>
-                    <p className='TextP5'>• Регистрация заключаемых контрактов.</p>
+                    <p className='TextP5'>• Регистрация заключаемых контрактов.</p> */}
                 </div>
             </div>
 

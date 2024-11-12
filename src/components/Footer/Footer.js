@@ -53,12 +53,12 @@ const Footer = () => {
             </div>
             <div className='Footer2'>
                 <div className='FooterYozuv1'>
-                    <p onClick={handleMalumotlarClick}>УЗБЕКИСТАНО</p>
+                    <p onClick={handleMalumotlarClick}>НАМАНГАН</p>
                     <p onClick={handleOproyektClick}>O ПРОЕКТЕ</p>
                 </div>
                 <div className='FooterYozuv2'>
                     <p onClick={handleVistavkiClick}>ВЫСТАВКИ</p>
-                    <p>MADE IN UZBEKISTAN</p>
+                    <p>MADE IN NAMANGAN</p>
                 </div>
                 <div className='FooterYozuv3'>
                     <p>КОНТАКТЫ</p>
